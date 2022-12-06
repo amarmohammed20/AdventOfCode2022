@@ -3,7 +3,7 @@
 // Polished up on reduce and regex
 // Had a slight breakdown at the start as I thought I should be able to solve this in 5 seconds. After a lot of googling finally found a way.
 
-import { mkdirSync, readFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 
 // Pull in the the calories from the source file in a format that we need
 const elvesCalories = readFileSync('./calories.txt', { encoding: 'utf-8' })
